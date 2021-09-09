@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>|| APOD ||</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr' rel='stylesheet'/>
+    <link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'
+        integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr' rel='stylesheet' />
     <script src="apod.js" defer></script>
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
 
 
 </head>
+
 <body>
-<!--Background-->
+    <!--Background-->
     <div class="corpo">
         <div id="imagem-apod">
-        <div  id="video-apod"></div>
-<!--Conteúdo dentro da imagem content-->
+            <div id="video-apod"></div>
+            <!--Conteúdo dentro da imagem content-->
             <div class="content">
-    <header>
-        
-        <h1>Astronomy Picture of day</h1>
-        <p>Since 06-20-1995</p>
-        <div  class="titulo-imagem"></div>
-        <div class="pesquisa">
-            <input type="date" min="199
+                <header>
+                    <div class="titulo.principal">
+                    <h1>Astronomy Picture of day</h1><br>
+                </div>
+                    <div class="titulo-imagem"></div><br>
+                    <p>Since 06-20-1995</p><br>
+                    <div class="pesquisa">
+                        <input type="date" min="199
             5-06-20" name="data" id="data">
-            <button id="botao"><i class="fas fa-search"></i></button>
+                        <button id="botao"><i class="fas fa-search"></i></button>
+                    </div><br>
+                </header>
+                <main><br><br>
+                    <div id="descricao"></div>
+                </main>
+            </div>
         </div>
-    </header>
-    <main>
-    <div id="descricao"></div>
-    </main>
-    </div>
 
-    <footer>
-        <div class="copyright">
-            Resilia 2021 - Todos os Direitos são Reservados.
-        </div>
-    </footer>
-    
+            <footer>
+                <div id="copyright">
+                    Resilia 2021 - Todos os Direitos são Reservados.
+                </div>
+            </footer>
+
 </body>
+
 </html>
